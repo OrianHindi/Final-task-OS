@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/fwork_312320062.dir/q1_312320062.c.o  -o fwork_312320062 

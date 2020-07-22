@@ -1,0 +1,3 @@
+/home/orian/CLionProjects/fwork_312320062/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/orian/CLionProjects/fwork_312320062/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/orian/CLionProjects/fwork_312320062/cmake-build-debug/CMakeFiles/fwork_312320062.dir
