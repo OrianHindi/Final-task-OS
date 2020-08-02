@@ -123,33 +123,6 @@ fwork_312320062/fast:
 	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/build
 .PHONY : fwork_312320062/fast
 
-check.o: check.c.o
-
-.PHONY : check.o
-
-# target to build an object file
-check.c.o:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/check.c.o
-.PHONY : check.c.o
-
-check.i: check.c.i
-
-.PHONY : check.i
-
-# target to preprocess a source file
-check.c.i:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/check.c.i
-.PHONY : check.c.i
-
-check.s: check.c.s
-
-.PHONY : check.s
-
-# target to generate assembly for a file
-check.c.s:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/check.c.s
-.PHONY : check.c.s
-
 check_pid.o: check_pid.c.o
 
 .PHONY : check_pid.o
@@ -176,6 +149,33 @@ check_pid.s: check_pid.c.s
 check_pid.c.s:
 	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/check_pid.c.s
 .PHONY : check_pid.c.s
+
+client.o: client.c.o
+
+.PHONY : client.o
+
+# target to build an object file
+client.c.o:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/client.c.o
+.PHONY : client.c.o
+
+client.i: client.c.i
+
+.PHONY : client.i
+
+# target to preprocess a source file
+client.c.i:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/client.c.i
+.PHONY : client.c.i
+
+client.s: client.c.s
+
+.PHONY : client.s
+
+# target to generate assembly for a file
+client.c.s:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/client.c.s
+.PHONY : client.c.s
 
 q1_312320062.o: q1_312320062.c.o
 
@@ -204,6 +204,60 @@ q1_312320062.c.s:
 	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/q1_312320062.c.s
 .PHONY : q1_312320062.c.s
 
+server.o: server.c.o
+
+.PHONY : server.o
+
+# target to build an object file
+server.c.o:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/server.c.o
+.PHONY : server.c.o
+
+server.i: server.c.i
+
+.PHONY : server.i
+
+# target to preprocess a source file
+server.c.i:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/server.c.i
+.PHONY : server.c.i
+
+server.s: server.c.s
+
+.PHONY : server.s
+
+# target to generate assembly for a file
+server.c.s:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/server.c.s
+.PHONY : server.c.s
+
+set_policy.o: set_policy.c.o
+
+.PHONY : set_policy.o
+
+# target to build an object file
+set_policy.c.o:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/set_policy.c.o
+.PHONY : set_policy.c.o
+
+set_policy.i: set_policy.c.i
+
+.PHONY : set_policy.i
+
+# target to preprocess a source file
+set_policy.c.i:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/set_policy.c.i
+.PHONY : set_policy.c.i
+
+set_policy.s: set_policy.c.s
+
+.PHONY : set_policy.s
+
+# target to generate assembly for a file
+set_policy.c.s:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/set_policy.c.s
+.PHONY : set_policy.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... fwork_312320062"
-	@echo "... check.o"
-	@echo "... check.i"
-	@echo "... check.s"
 	@echo "... check_pid.o"
 	@echo "... check_pid.i"
 	@echo "... check_pid.s"
+	@echo "... client.o"
+	@echo "... client.i"
+	@echo "... client.s"
 	@echo "... q1_312320062.o"
 	@echo "... q1_312320062.i"
 	@echo "... q1_312320062.s"
+	@echo "... server.o"
+	@echo "... server.i"
+	@echo "... server.s"
+	@echo "... set_policy.o"
+	@echo "... set_policy.i"
+	@echo "... set_policy.s"
 .PHONY : help
 
 

@@ -76,13 +76,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/orian/CLionProjects/fwork_312320062/check.c">
-			<Option target="fwork_312320062"/>
-		</Unit>
 		<Unit filename="/home/orian/CLionProjects/fwork_312320062/check_pid.c">
 			<Option target="fwork_312320062"/>
 		</Unit>
+		<Unit filename="/home/orian/CLionProjects/fwork_312320062/client.c">
+			<Option target="fwork_312320062"/>
+		</Unit>
 		<Unit filename="/home/orian/CLionProjects/fwork_312320062/q1_312320062.c">
+			<Option target="fwork_312320062"/>
+		</Unit>
+		<Unit filename="/home/orian/CLionProjects/fwork_312320062/server.c">
+			<Option target="fwork_312320062"/>
+		</Unit>
+		<Unit filename="/home/orian/CLionProjects/fwork_312320062/set_policy.c">
 			<Option target="fwork_312320062"/>
 		</Unit>
 		<Unit filename="/home/orian/CLionProjects/fwork_312320062/CMakeLists.txt">
