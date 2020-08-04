@@ -48,7 +48,7 @@ int main(int argc , char* argv[]){
         sa.size=sizeof(sa);
         sa.sched_flags=0;
         sa.sched_nice=0;
-        sa.sched_priority=0;
+        sa.sched_priority=priority;
 
         /* creates a 10ms/30ms reservation */
         sa.sched_policy= SCHED_DEADLINE;
