@@ -82,6 +82,9 @@
 		<Unit filename="/home/orian/CLionProjects/fwork_312320062/client.c">
 			<Option target="fwork_312320062"/>
 		</Unit>
+		<Unit filename="/home/orian/CLionProjects/fwork_312320062/dir_traversal.c">
+			<Option target="fwork_312320062"/>
+		</Unit>
 		<Unit filename="/home/orian/CLionProjects/fwork_312320062/q1_312320062.c">
 			<Option target="fwork_312320062"/>
 		</Unit>

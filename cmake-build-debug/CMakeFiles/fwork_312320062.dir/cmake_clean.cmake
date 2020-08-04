@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fwork_312320062.dir/check_pid.c.o"
   "CMakeFiles/fwork_312320062.dir/client.c.o"
+  "CMakeFiles/fwork_312320062.dir/dir_traversal.c.o"
   "CMakeFiles/fwork_312320062.dir/q1_312320062.c.o"
   "CMakeFiles/fwork_312320062.dir/server.c.o"
   "CMakeFiles/fwork_312320062.dir/set_policy.c.o"

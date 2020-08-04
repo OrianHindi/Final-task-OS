@@ -2,7 +2,7 @@
 // Created by orian on 23/07/2020.
 //
 #include <errno.h>
-#include<stdio.h>
+#include <stdio.h>
 #include <signal.h>
 #include <stdlib.h>
 

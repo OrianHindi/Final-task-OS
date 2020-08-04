@@ -177,6 +177,33 @@ client.c.s:
 	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/client.c.s
 .PHONY : client.c.s
 
+dir_traversal.o: dir_traversal.c.o
+
+.PHONY : dir_traversal.o
+
+# target to build an object file
+dir_traversal.c.o:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/dir_traversal.c.o
+.PHONY : dir_traversal.c.o
+
+dir_traversal.i: dir_traversal.c.i
+
+.PHONY : dir_traversal.i
+
+# target to preprocess a source file
+dir_traversal.c.i:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/dir_traversal.c.i
+.PHONY : dir_traversal.c.i
+
+dir_traversal.s: dir_traversal.c.s
+
+.PHONY : dir_traversal.s
+
+# target to generate assembly for a file
+dir_traversal.c.s:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/dir_traversal.c.s
+.PHONY : dir_traversal.c.s
+
 q1_312320062.o: q1_312320062.c.o
 
 .PHONY : q1_312320062.o
@@ -273,6 +300,9 @@ help:
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
+	@echo "... dir_traversal.o"
+	@echo "... dir_traversal.i"
+	@echo "... dir_traversal.s"
 	@echo "... q1_312320062.o"
 	@echo "... q1_312320062.i"
 	@echo "... q1_312320062.s"
