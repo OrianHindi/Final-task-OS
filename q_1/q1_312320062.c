@@ -21,19 +21,19 @@ doCalc(int val)                 /* 6. Text(Code segment) */
 
     if (val < 1000) {
         int t;                  /* 7. STACK(stack frame of doCalc()) */
-//b 13 info locals
+
         t = val * val * val;
         printf("The cube of %d is %d\n", val, t);
     }
 }
 
 int
-main(int argc, char* argv[])    /* 8. Text(Code segment) */
+main(int argc,char* argv[])    /* 8. Text(Code segment) */
 {
     static int key = 9973;      /* 9. Initialized data */
     static char mbuf[10240000]; /* 10. Uninitialized data(BSS) */
-    char* p;                    /* 11. STACK(stack frame of main()) */
-
+    char* p;                    /* 11. Not allocated until p get value. */
+			  /*     if p had a value he would be allocated on stack frame 						of main()*/
 
     doCalc(key);
 

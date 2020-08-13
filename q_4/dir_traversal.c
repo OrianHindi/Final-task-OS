@@ -16,7 +16,7 @@
 
 static int display_info(const char* fpath , const struct stat* sb,int tflag, struct FTW* ftbwbuff){
         if(tflag== FTW_SL) return 0;
-        printf("%s\t %d \t %s \n",(tflag == FTW_D) ?   "D"   : (tflag == FTW_DNR) ? "DNR" :
+        printf("%s\t %ld \t %s \n",(tflag == FTW_D) ?   "D"   : (tflag == FTW_DNR) ? "DNR" :
         (tflag == FTW_DP) ?  "DP"  : (tflag == FTW_F) ?   "F" : "NS"
        ,sb->st_ino,fpath+ftbwbuff->base);
         return 0;

@@ -1,0 +1,19 @@
+How to run the program?
+
+
+
+compile command:
+
+make - will compile the file of this question, the exec file will be named dir_traversal.
+
+
+exec command:
+
+	./dir_traversal <path> 
+	
+if the program not get any parameter at the command line it will print the files in the current dir.
+
+
+clean command:
+
+	make clean- will delete the exec file.

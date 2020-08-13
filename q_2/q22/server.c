@@ -17,8 +17,11 @@ void sigintHandler(int sig){
 
 
 int main(){
-    signal(SIGUSR1,sigusr1Handler);
-    signal(SIGINT,sigintHandler);
+ 
+    if(signal(SIGUSR1,sigusr1Handler) ==SIG_ERR || signal(SIGINT,sigintHandler)==SIG_ERR){
+    	printf("failed at signal() function");
+    	return -1;
+    	}
     printf("Server pid is: %d\n",getpid());
 
     getchar();

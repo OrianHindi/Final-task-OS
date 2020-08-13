@@ -123,60 +123,6 @@ fwork_312320062/fast:
 	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/build
 .PHONY : fwork_312320062/fast
 
-check_pid.o: check_pid.c.o
-
-.PHONY : check_pid.o
-
-# target to build an object file
-check_pid.c.o:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/check_pid.c.o
-.PHONY : check_pid.c.o
-
-check_pid.i: check_pid.c.i
-
-.PHONY : check_pid.i
-
-# target to preprocess a source file
-check_pid.c.i:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/check_pid.c.i
-.PHONY : check_pid.c.i
-
-check_pid.s: check_pid.c.s
-
-.PHONY : check_pid.s
-
-# target to generate assembly for a file
-check_pid.c.s:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/check_pid.c.s
-.PHONY : check_pid.c.s
-
-client.o: client.c.o
-
-.PHONY : client.o
-
-# target to build an object file
-client.c.o:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/client.c.o
-.PHONY : client.c.o
-
-client.i: client.c.i
-
-.PHONY : client.i
-
-# target to preprocess a source file
-client.c.i:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/client.c.i
-.PHONY : client.c.i
-
-client.s: client.c.s
-
-.PHONY : client.s
-
-# target to generate assembly for a file
-client.c.s:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/client.c.s
-.PHONY : client.c.s
-
 dir_traversal.o: dir_traversal.c.o
 
 .PHONY : dir_traversal.o
@@ -203,60 +149,6 @@ dir_traversal.s: dir_traversal.c.s
 dir_traversal.c.s:
 	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/dir_traversal.c.s
 .PHONY : dir_traversal.c.s
-
-q1_312320062.o: q1_312320062.c.o
-
-.PHONY : q1_312320062.o
-
-# target to build an object file
-q1_312320062.c.o:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/q1_312320062.c.o
-.PHONY : q1_312320062.c.o
-
-q1_312320062.i: q1_312320062.c.i
-
-.PHONY : q1_312320062.i
-
-# target to preprocess a source file
-q1_312320062.c.i:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/q1_312320062.c.i
-.PHONY : q1_312320062.c.i
-
-q1_312320062.s: q1_312320062.c.s
-
-.PHONY : q1_312320062.s
-
-# target to generate assembly for a file
-q1_312320062.c.s:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/q1_312320062.c.s
-.PHONY : q1_312320062.c.s
-
-server.o: server.c.o
-
-.PHONY : server.o
-
-# target to build an object file
-server.c.o:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/server.c.o
-.PHONY : server.c.o
-
-server.i: server.c.i
-
-.PHONY : server.i
-
-# target to preprocess a source file
-server.c.i:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/server.c.i
-.PHONY : server.c.i
-
-server.s: server.c.s
-
-.PHONY : server.s
-
-# target to generate assembly for a file
-server.c.s:
-	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/server.c.s
-.PHONY : server.c.s
 
 set_policy.o: set_policy.c.o
 
@@ -285,6 +177,33 @@ set_policy.c.s:
 	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/set_policy.c.s
 .PHONY : set_policy.c.s
 
+set_policy2.o: set_policy2.c.o
+
+.PHONY : set_policy2.o
+
+# target to build an object file
+set_policy2.c.o:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/set_policy2.c.o
+.PHONY : set_policy2.c.o
+
+set_policy2.i: set_policy2.c.i
+
+.PHONY : set_policy2.i
+
+# target to preprocess a source file
+set_policy2.c.i:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/set_policy2.c.i
+.PHONY : set_policy2.c.i
+
+set_policy2.s: set_policy2.c.s
+
+.PHONY : set_policy2.s
+
+# target to generate assembly for a file
+set_policy2.c.s:
+	$(MAKE) -f CMakeFiles/fwork_312320062.dir/build.make CMakeFiles/fwork_312320062.dir/set_policy2.c.s
+.PHONY : set_policy2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -294,24 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... fwork_312320062"
-	@echo "... check_pid.o"
-	@echo "... check_pid.i"
-	@echo "... check_pid.s"
-	@echo "... client.o"
-	@echo "... client.i"
-	@echo "... client.s"
 	@echo "... dir_traversal.o"
 	@echo "... dir_traversal.i"
 	@echo "... dir_traversal.s"
-	@echo "... q1_312320062.o"
-	@echo "... q1_312320062.i"
-	@echo "... q1_312320062.s"
-	@echo "... server.o"
-	@echo "... server.i"
-	@echo "... server.s"
 	@echo "... set_policy.o"
 	@echo "... set_policy.i"
 	@echo "... set_policy.s"
+	@echo "... set_policy2.o"
+	@echo "... set_policy2.i"
+	@echo "... set_policy2.s"
 .PHONY : help
 
 

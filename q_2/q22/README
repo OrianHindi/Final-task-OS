@@ -1,0 +1,27 @@
+How to run the program?
+
+compile command:
+
+1)make - compile all the files of this quetsion.
+
+
+
+exec command:
+
+Open 2 terminals. First At one terminal run the server with the command below ,the server pid will print to the screen ,
+In the second terminal run the client with the command below with the pid of the printed pid.
+
+server: ./server ( to kill the server us kill -9 <server pid> at another terminal or enter 1 at the server program).
+
+client: ./client <server pid> <signum> <times> 
+
+
+signum must be equal to 2 or 10.if not the program will fail.
+case signum = SIGUSR1 the server will print how much signals he recived from the client.
+
+case signum = SIGINT the serverr will count how much signals he recived from the client.
+
+
+clean command:
+
+	make clean - will delete all the exec files.

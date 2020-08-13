@@ -1,0 +1,17 @@
+How to run the program?
+
+compile command:
+
+make - will compile the file of this question, the exec file wiil be name policy
+
+
+exec command:
+
+	sudo ./policy <sched_policy> <priority>
+	
+need to use sudo because we are going to change in this program process priority and policy.
+
+
+clean commnad:
+
+	make clean- will delete all exec file.

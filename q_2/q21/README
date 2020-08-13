@@ -1,0 +1,14 @@
+How to run the program?
+
+
+compile command:
+	make - will compile the file of this question.
+	
+
+exec command:
+
+	./check_pid <pid>
+	
+clean command:
+
+	make clean - will delete the exec file.
